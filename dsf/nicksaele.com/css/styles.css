@@ -1,0 +1,260 @@
+html { box-sizing: border-box; }
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    border: 1px;
+}
+
+/* Global Styles */
+
+
+body {
+    color: gray;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4em;
+    
+    
+
+
+
+}
+
+/* Typography */
+
+p {
+    font-size: 12px;
+}
+
+h1 {
+    position: relative;
+}
+
+h2 {
+    font-family: ITC Avant Garde Gothic Std, Helvetica, sans-serif;
+    font-size: 100px;
+    letter-spacing: 15px;
+    line-height: 1em;
+}
+
+h3 {
+    font-family: ITC Avant Garde Gothic Std, Helvetica, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 185px;
+    left: 130px;
+}
+
+h4 {
+    font-family: Avenir, Helvetica, sans-serif;
+    font-color: #363636;
+    font-size: 11pt;
+    position: relative;
+    left: 130px;
+    top: 180px;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: ITC Avant Garde Gothic Std, Helvetica, sans-serif;
+    font-color: #363636;
+    font-size: 20pt;
+    position: relative;
+    left: 130px;
+    top: 180px;
+    font-weight: lighter;
+
+}
+
+/* Header & Navigation */
+
+header {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 30px;
+    font-color: #363636;
+    font-family: ITC Avant Garde Gothic Std, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.logo { float: left; }
+
+.name { 
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.name h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #363636;
+}
+
+nav ul li a.active {
+    color: none;
+}
+
+/* Page Layout */
+
+.contact {
+    position: relative;
+    left: 180px;
+    top: -40px;
+}
+
+.work {
+    max-width: 960px;
+    margin-left: 171px;
+    margin-bottom: 50px;
+    margin-top: -80px;
+}
+
+.container {
+    max-width: 980px;
+    margin-left: 170px;
+}
+
+.verticalline {
+    border-left: thick solid;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.container {
+    background-color: none;
+
+}
+
+.navigation {
+
+    color: #363636;
+
+
+}
+
+.thumb {
+    display: inline-block;
+
+}
+
+.thumb img {
+    width: 100%;
+}
+
+.lancome {
+    margin-left: -20px;
+    margin-bottom: 50px;
+    margin-top: -140px;
+}
+
+.trapped {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: -125px;
+}
+
+.flowers {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: -195px;
+}
+
+.palms {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: -245px;
+}
+
+.type {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: -85px;
+}
+
+.diamonds {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: -35px;
+}
+
+.picofme {
+    margin-left: 5px;
+    margin-bottom: 50px;
+    margin-top: -185px;
+}
+
+h3 {
+    margin-left: 40px;
+    top: -50px;
+}
+
+h5 {
+    margin-left: 380px;
+    top: -35px;
+}
+
+
+.abouttheproduct {
+    position: relative;
+    top: 325px;
+    max-width: 700px;
+    left: 30px; 
+    line-height: 180%;
+
+}
+
+.abouttheproduct2 {
+    position: relative;
+    top: 530px;
+    max-width: 550px;
+    left: 45px; 
+    line-height: 180%;
+}
+
+.abouttheproduct3 {
+    position: relative;
+    top: 460px;
+    max-width: 550px;
+    left: 45px; 
+    line-height: 180%;
+}
+
+.aboutmenew {
+    position: relative;
+    top: -190px;
+    max-width: 400px;
+    left: 380px; 
+    line-height: 180%;
+}
+
+/* Media Queries */
